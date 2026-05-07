@@ -1,5 +1,5 @@
 #!/bin/bash
-# Test code for syspro2024 kadai6
+# Test code for syspro2024 kadai5
 # Written by Shinichi Awamoto and Daichi Morita
 # Edited by Momoko Shiraishi
 
@@ -8,7 +8,7 @@ warn() { echo $1; state=1; }
 dir=$(mktemp -d)
 trap "rm -rf $dir" 0
 
-testdir=kadai6_test
+testdir=kadai5_test
 termdir=${testdir}/pseudoterm
 scriptdir=${testdir}/script
 
